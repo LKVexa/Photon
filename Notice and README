@@ -7,7 +7,7 @@ Generic Photon v0.2.0 WindowsSafe-r1
 
 Copyright 2026 RUSSELL PHILIP SMITHSON
 
-Licensed under the Apache License, Version 2.0.
+Repository-level first-party work is licensed under the GNU General Public License, version 3 only (GPL-3.0-only). See LICENSE.
 
 The WindowsSafe revisions contain modifications intended to improve compatibility with Microsoft Windows filesystem and archive environments, including path canonicalization, duplicate-directory reduction, case-collision remediation, Windows namespace validation, checksum regeneration, package-manifest resealing, node-pin regeneration, qualification-reference repair, and Windows path-preflight support.
 
@@ -15,7 +15,7 @@ These modifications do not remove or supersede copyright, attribution, license, 
 
 Third-party software, libraries, runtimes, tools, source materials, or other components included with this distribution remain subject to their respective licenses and notices.
 
-The Apache Software Foundation does not sponsor, endorse, certify, or otherwise approve this project merely because the project is distributed under the Apache License, Version 2.0.
+A software license does not imply sponsorship, endorsement or certification by its publisher or by an upstream project.
 
 ---
 
@@ -662,7 +662,8 @@ verification utilities
 Licensed under the:
 
 ```text
-Apache License, Version 2.0
+GNU General Public License, version 3 only
+SPDX-License-Identifier: GPL-3.0-only
 ```
 
 See:
@@ -694,7 +695,7 @@ where present.
 
 ## Warranty
 
-This software is provided on an **AS IS** basis, without warranties or conditions of any kind, as specified by the Apache License, Version 2.0.
+This software is provided **without any warranty**, including implied warranties of merchantability or fitness for a particular purpose, to the extent permitted by applicable law. See sections 15 and 16 of LICENSE.
 
 Users are responsible for verifying suitability for their intended environment and application.
 
@@ -719,3 +720,17 @@ TRACEABLE CANONICALIZATION
 ```
 
 The resulting packages are intended to provide a substantially more reliable foundation for running, developing, auditing, qualifying, and distributing VEC1 Photon environments on Windows.
+
+## Licensing update and archived distributions
+
+As of 2026-10-05, the current repository-level first-party work is distributed
+under GNU GPL version 3 only (GPL-3.0-only); see [LICENSE](LICENSE).
+The former root Apache license is retained for historical reference at
+[licenses/Apache-2.0-legacy.txt](licenses/Apache-2.0-legacy.txt), not as the current
+project-level license declaration.
+
+The two WindowsSafe-r1 ZIP releases are retained byte-for-byte, including their
+existing licenses, attribution, manifests and checksum inventories. This change
+does not repackage or rewrite those releases, relicense third-party components,
+or purport to revoke licenses already granted for earlier copies. Consult the
+notices inside each archive when using or redistributing that archived release.
